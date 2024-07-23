@@ -1207,11 +1207,11 @@ highlight! link rainbowcol7 Purple
 " }}}
 " romgrk/barbar.nvim {{{
 call everforest#highlight('BufferCurrent', s:palette.fg, s:palette.bg0)
-call everforest#highlight('BufferCurrentIndex', s:palette.green, s:palette.bg0)
+call everforest#highlight('BufferCurrentIndex', s:palette.fg, s:palette.bg0)
 call everforest#highlight('BufferCurrentMod', s:palette.blue, s:palette.bg0)
 call everforest#highlight('BufferCurrentSign', s:palette.statusline1, s:palette.bg0)
 call everforest#highlight('BufferCurrentTarget', s:palette.red, s:palette.bg0, 'bold')
-call everforest#highlight('BufferVisible', s:palette.fg, s:palette.bg_dim)
+call everforest#highlight('BufferVisible', s:palette.green, s:palette.bg_dim)
 call everforest#highlight('BufferVisibleIndex', s:palette.fg, s:palette.bg_dim)
 call everforest#highlight('BufferVisibleMod', s:palette.blue, s:palette.bg_dim)
 call everforest#highlight('BufferVisibleSign', s:palette.statusline1, s:palette.bg_dim)
