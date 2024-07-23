@@ -970,7 +970,7 @@ call everforest#highlight('CtrlPPrtBase', s:palette.bg3, s:palette.none)
 call everforest#highlight('CtrlPLinePre', s:palette.bg3, s:palette.none)
 call everforest#highlight('CtrlPMode1', s:palette.blue, s:palette.bg3, 'bold')
 call everforest#highlight('CtrlPMode2', s:palette.bg0, s:palette.blue, 'bold')
-call everforest#highlight('CtrlPStats', s:palette.grey1, s:palette.bg3, 'bold')
+call everforest#highlight('CtrlPStats', s:palette.grey11, s:palette.bg3, 'bold')
 highlight! link CtrlPNoEntries Red
 highlight! link CtrlPPrtCursor Blue
 " }}}
