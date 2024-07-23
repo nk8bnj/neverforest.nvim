@@ -1295,7 +1295,7 @@ highlight! link DefinitionCount Grey
 highlight! link TargetFileName Grey
 " }}}
 " b0o/incline.nvim {{{
-call everforest#highlight('InclineNormalNC', s:palette.grey1, s:palette.bg2)
+call everforest#highlight('InclineNormalNC', s:palette.grey11, s:palette.bg2)
 " }}}
 " echasnovski/mini.nvim {{{
 call everforest#highlight('MiniIndentscopePrefix', s:palette.none, s:palette.none, 'nocombine')
