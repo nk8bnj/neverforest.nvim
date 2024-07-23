@@ -125,7 +125,7 @@ call everforest#highlight('ErrorMsg', s:palette.red, s:palette.none, 'bold,under
 call everforest#highlight('WarningMsg', s:palette.yellow, s:palette.none, 'bold')
 call everforest#highlight('ModeMsg', s:palette.fg, s:palette.none, 'bold')
 call everforest#highlight('MoreMsg', s:palette.yellow, s:palette.none, 'bold')
-call everforest#highlight('MatchParen', s:palette.none, s:palette.bg_red)
+call everforest#highlight('MatchParen', s:palette.none, s:palette.bg4)
 call everforest#highlight('NonText', s:palette.bg_red, s:palette.none)
 call everforest#highlight('Whitespace', s:palette.bg_red, s:palette.none)
 call everforest#highlight('SpecialKey', s:palette.bg3, s:palette.none)
