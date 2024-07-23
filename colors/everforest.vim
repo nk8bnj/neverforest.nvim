@@ -42,7 +42,7 @@ if s:configuration.transparent_background >= 1
   else
     call everforest#highlight('FoldColumn', s:palette.grey0, s:palette.none)
   endif
-  call everforest#highlight('Folded', s:palette.grey1, s:palette.none)
+  call everforest#highlight('Folded', s:palette.grey11, s:palette.none)
   call everforest#highlight('SignColumn', s:palette.fg, s:palette.none)
   call everforest#highlight('ToolbarLine', s:palette.fg, s:palette.none)
 else
