@@ -54,7 +54,7 @@ else
   endif
   call everforest#highlight('Terminal', s:palette.fg, s:palette.bg0)
   if s:configuration.show_eob
-    call everforest#highlight('EndOfBuffer', s:palette.bg_red, s:palette.none)
+    call everforest#highlight('EndOfBuffer', s:palette.bg4, s:palette.none)
   else
     call everforest#highlight('EndOfBuffer', s:palette.bg0, s:palette.none)
   endif
