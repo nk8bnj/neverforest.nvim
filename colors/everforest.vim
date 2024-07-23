@@ -58,7 +58,7 @@ else
   else
     call everforest#highlight('EndOfBuffer', s:palette.bg0, s:palette.none)
   endif
-  call everforest#highlight('Folded', s:palette.grey11, s:palette.bg1)
+  call everforest#highlight('Folded', s:palette.grey1, s:palette.bg1)
   call everforest#highlight('ToolbarLine', s:palette.fg, s:palette.bg2)
   if s:configuration.sign_column_background ==# 'grey'
     call everforest#highlight('SignColumn', s:palette.fg, s:palette.bg1)
@@ -100,11 +100,11 @@ endif
 if s:configuration.ui_contrast ==# 'low'
   call everforest#highlight('LineNr', s:palette.bg5, s:palette.none)
   if &diff
-    call everforest#highlight('CursorLineNr', s:palette.grey1, s:palette.none, 'underline')
+    call everforest#highlight('CursorLineNr', s:palette.grey11, s:palette.none, 'underline')
   elseif (&relativenumber == 1 && &cursorline == 0) || s:configuration.sign_column_background ==# 'none'
-    call everforest#highlight('CursorLineNr', s:palette.grey1, s:palette.none)
+    call everforest#highlight('CursorLineNr', s:palette.grey11, s:palette.none)
   else
-    call everforest#highlight('CursorLineNr', s:palette.grey1, s:palette.bg1)
+    call everforest#highlight('CursorLineNr', s:palette.grey11, s:palette.bg1)
   endif
 else
   call everforest#highlight('LineNr', s:palette.grey0, s:palette.none)
