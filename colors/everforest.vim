@@ -33,7 +33,7 @@ if s:configuration.transparent_background >= 1
   call everforest#highlight('NormalNC', s:palette.fg, s:palette.none)
   call everforest#highlight('Terminal', s:palette.fg, s:palette.none)
   if s:configuration.show_eob
-    call everforest#highlight('EndOfBuffer', s:palette.bg4, s:palette.none)
+    call everforest#highlight('EndOfBuffer', s:palette.bg_red, s:palette.none)
   else
     call everforest#highlight('EndOfBuffer', s:palette.bg0, s:palette.none)
   endif
