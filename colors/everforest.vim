@@ -1606,13 +1606,13 @@ call everforest#highlight('OctoRedFloat', s:palette.red, s:palette.bg2)
 call everforest#highlight('OctoPurpleFloat', s:palette.purple, s:palette.bg2)
 call everforest#highlight('OctoYellowFloat', s:palette.yellow, s:palette.bg2)
 call everforest#highlight('OctoBlueFloat', s:palette.blue, s:palette.bg2)
-call everforest#highlight('OctoGreyFloat', s:palette.grey11, s:palette.bg2)
+call everforest#highlight('OctoGreyFloat', s:palette.grey1, s:palette.bg2)
 call everforest#highlight('OctoBubbleGreen', s:palette.bg0, s:palette.green)
 call everforest#highlight('OctoBubbleRed', s:palette.bg0, s:palette.red)
 call everforest#highlight('OctoBubblePurple', s:palette.bg0, s:palette.purple)
 call everforest#highlight('OctoBubbleYellow', s:palette.bg0, s:palette.yellow)
 call everforest#highlight('OctoBubbleBlue', s:palette.bg0, s:palette.blue)
-call everforest#highlight('OctoBubbleGrey', s:palette.bg0, s:palette.grey11)
+call everforest#highlight('OctoBubbleGrey', s:palette.bg0, s:palette.grey1)
 highlight! link OctoGreen Green
 highlight! link OctoRed Red
 highlight! link OctoPurple Purple
