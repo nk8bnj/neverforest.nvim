@@ -138,11 +138,11 @@ highlight! link WildMenu PmenuSel
 call everforest#highlight('PmenuThumb', s:palette.none, s:palette.grey0)
 if s:configuration.float_style ==# 'dim'
   call everforest#highlight('NormalFloat', s:palette.fg, s:palette.bg_dim)
-  call everforest#highlight('FloatBorder', s:palette.grey11, s:palette.bg_dim)
+  call everforest#highlight('FloatBorder', s:palette.grey1, s:palette.bg_dim)
   call everforest#highlight('FloatTitle', s:palette.fg, s:palette.bg_dim, 'bold')
 else
   call everforest#highlight('NormalFloat', s:palette.fg, s:palette.bg2)
-  call everforest#highlight('FloatBorder', s:palette.grey11, s:palette.bg2)
+  call everforest#highlight('FloatBorder', s:palette.grey1, s:palette.bg2)
   call everforest#highlight('FloatTitle', s:palette.fg, s:palette.bg2, 'bold')
 endif
 call everforest#highlight('Question', s:palette.yellow, s:palette.none)
@@ -158,20 +158,20 @@ else
   call everforest#highlight('SpellRare', s:palette.purple, s:palette.none, 'undercurl', s:palette.purple)
 endif
 if s:configuration.transparent_background == 2
-  call everforest#highlight('StatusLine', s:palette.grey1, s:palette.none)
-  call everforest#highlight('StatusLineTerm', s:palette.grey1, s:palette.none)
+  call everforest#highlight('StatusLine', s:palette.grey11, s:palette.none)
+  call everforest#highlight('StatusLineTerm', s:palette.grey11, s:palette.none)
   call everforest#highlight('StatusLineNC', s:palette.grey0, s:palette.none)
   call everforest#highlight('StatusLineTermNC', s:palette.grey0, s:palette.none)
   call everforest#highlight('TabLine', s:palette.grey2, s:palette.bg3)
-  call everforest#highlight('TabLineFill', s:palette.grey1, s:palette.none)
+  call everforest#highlight('TabLineFill', s:palette.grey11, s:palette.none)
   call everforest#highlight('TabLineSel', s:palette.bg0, s:palette.statusline1)
 else
   call everforest#highlight('StatusLine', s:palette.grey1, s:palette.bg2)
-  call everforest#highlight('StatusLineTerm', s:palette.grey1, s:palette.bg1)
-  call everforest#highlight('StatusLineNC', s:palette.grey1, s:palette.bg1)
-  call everforest#highlight('StatusLineTermNC', s:palette.grey1, s:palette.bg0)
+  call everforest#highlight('StatusLineTerm', s:palette.grey11, s:palette.bg1)
+  call everforest#highlight('StatusLineNC', s:palette.grey11, s:palette.bg1)
+  call everforest#highlight('StatusLineTermNC', s:palette.grey11, s:palette.bg0)
   call everforest#highlight('TabLine', s:palette.grey2, s:palette.bg3)
-  call everforest#highlight('TabLineFill', s:palette.grey1, s:palette.bg1)
+  call everforest#highlight('TabLineFill', s:palette.grey11, s:palette.bg1)
   call everforest#highlight('TabLineSel', s:palette.bg0, s:palette.statusline1)
 endif
 if s:configuration.dim_inactive_windows
