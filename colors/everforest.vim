@@ -1295,14 +1295,14 @@ highlight! link DefinitionCount Grey
 highlight! link TargetFileName Grey
 " }}}
 " b0o/incline.nvim {{{
-call everforest#highlight('InclineNormalNC', s:palette.grey11, s:palette.bg2)
+call everforest#highlight('InclineNormalNC', s:palette.grey1, s:palette.bg2)
 " }}}
 " echasnovski/mini.nvim {{{
 call everforest#highlight('MiniIndentscopePrefix', s:palette.none, s:palette.none, 'nocombine')
 call everforest#highlight('MiniJump2dSpot', s:palette.orange, s:palette.none, 'bold,nocombine')
 call everforest#highlight('MiniStarterCurrent', s:palette.none, s:palette.none, 'nocombine')
-call everforest#highlight('MiniStatuslineDevinfo', s:palette.grey1, s:palette.bg1)
-call everforest#highlight('MiniStatuslineFileinfo', s:palette.grey1, s:palette.bg1)
+call everforest#highlight('MiniStatuslineDevinfo', s:palette.grey11, s:palette.bg1)
+call everforest#highlight('MiniStatuslineFileinfo', s:palette.grey11, s:palette.bg1)
 call everforest#highlight('MiniStatuslineModeCommand', s:palette.bg0, s:palette.aqua, 'bold')
 call everforest#highlight('MiniStatuslineModeInsert', s:palette.bg0, s:palette.statusline2, 'bold')
 call everforest#highlight('MiniStatuslineModeNormal', s:palette.bg0, s:palette.statusline1, 'bold')
