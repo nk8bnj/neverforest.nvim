@@ -58,7 +58,7 @@ else
   else
     call everforest#highlight('EndOfBuffer', s:palette.bg0, s:palette.none)
   endif
-  call everforest#highlight('Folded', s:palette.grey1, s:palette.bg1)
+  call everforest#highlight('Folded', s:palette.grey11, s:palette.bg1)
   call everforest#highlight('ToolbarLine', s:palette.fg, s:palette.bg2)
   if s:configuration.sign_column_background ==# 'grey'
     call everforest#highlight('SignColumn', s:palette.fg, s:palette.bg1)
