@@ -65,8 +65,8 @@ function! everforest#get_palette(background, colors_override) "{{{
   elseif a:background ==# 'medium' "{{{
     if &background ==# 'dark'
       let palette1 = {
-            \ 'bg_dim':     ['#292E3A',   '233'],
-            \ 'bg0':        ['#292E3A',   '235'],
+            \ 'bg_dim':     ['#2d353b',   '233'],
+            \ 'bg0':        ['#2d353b',   '235'],
             \ 'bg1':        ['#353B4C',   '236'],
             \ 'bg2':        ['#3d484d',   '237'],
             \ 'bg3':        ['#475258',   '238'],
