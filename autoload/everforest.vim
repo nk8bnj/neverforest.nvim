@@ -136,7 +136,6 @@ function! everforest#get_palette(background, colors_override) "{{{
           \ 'yellow':     ['#EFBD58',   '214'],
           \ 'green':      ['#A9CD73',   '142'],
           \ 'aqua':       ['#69CA81',   '108'],
-          \ 'blue':       ['#4DC5B6',   '109'],
           \ 'purple':     ['#D182D8',   '175'],
           \ 'grey0':      ['#7a8478',   '243'],
           \ 'grey1':      ['#859289',   '245'],
@@ -145,6 +144,7 @@ function! everforest#get_palette(background, colors_override) "{{{
           \ 'statusline1':['#A9CD73',   '142'],
           \ 'statusline2':['#4DC5B6',   '223'],
           \ 'statusline3':['#D182D8',   '167'],
+          \ 'statusline4':['#617078',   '167'],
           \ 'none':       ['NONE',      'NONE']
           \ } "}}}
   else "{{{
