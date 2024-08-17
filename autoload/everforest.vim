@@ -128,27 +128,6 @@ function! everforest#get_palette(background, colors_override) "{{{
             \ }
     endif
   endif "}}}
-    " if &background ==# 'dark' "{{{
-    " let palette2 = {
-    "       \ 'fg':         ['#d3c6aa',   '223'],
-    "       \ 'red':        ['#EE6060',   '167'],
-    "       \ 'orange':     ['#F38E61',   '208'],
-    "       \ 'yellow':     ['#EFBD58',   '214'],
-    "       \ 'green':      ['#A9CD73',   '142'],
-    "       \ 'aqua':       ['#69CA81',   '108'],
-    "       \ 'blue':       ['#4DC5B6',   '109'],
-    "       \ 'purple':     ['#D182D8',   '175'],
-    "       \ 'grey0':      ['#7a8478',   '243'],
-    "       \ 'grey1':      ['#859289',   '245'],
-    "       \ 'grey11':     ['#ff0000',   '245'],
-    "       \ 'grey2':      ['#9da9a0',   '247'],
-    "       \ 'statusline1':['#A9CD73',   '142'],
-    "       \ 'statusline2':['#4DC5B6',   '223'],
-    "       \ 'statusline3':['#D182D8',   '167'],
-    "       \ 'statusline4':['#617078',   '167'],
-    "       \ 'none':       ['NONE',      'NONE']
-    "       \ } "}}}
-
   if &background ==# 'dark' "{{{
     let palette2 = {
           \ 'fg':         ['#d3c6aa',   '223'],
@@ -158,7 +137,7 @@ function! everforest#get_palette(background, colors_override) "{{{
           \ 'green':      ['#A9CD73',   '142'],
           \ 'aqua':       ['#69CA81',   '108'],
           \ 'blue':       ['#4DC5B6',   '109'],
-          \ 'purple':     ['#D182D8',   '175'],
+          \ 'purple':     ['#E76969',   '175'],
           \ 'grey0':      ['#7a8478',   '243'],
           \ 'grey1':      ['#859289',   '245'],
           \ 'grey11':     ['#ff0000',   '245'],
