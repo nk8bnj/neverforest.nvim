@@ -325,6 +325,7 @@ call everforest#highlight('Fg', s:palette.fg, s:palette.none)
 call everforest#highlight('Grey', s:palette.grey1, s:palette.none)
 call everforest#highlight('Red', s:palette.red, s:palette.none)
 call everforest#highlight('Orange', s:palette.orange, s:palette.none)
+call everforest#highlight('FolderBG', s:palette.statusline4, s:palette.none)
 call everforest#highlight('Yellow', s:palette.yellow, s:palette.none)
 call everforest#highlight('Green', s:palette.green, s:palette.none)
 call everforest#highlight('Aqua', s:palette.aqua, s:palette.none)
@@ -1691,7 +1692,7 @@ if !s:configuration.transparent_background
   call everforest#highlight('NeoTreeEndOfBuffer', s:palette.bg_dim, s:palette.bg_dim)
   call everforest#highlight('NeoTreeVertSplit', s:palette.bg0, s:palette.bg0)
 endif
-highlight! link NeoTreeDirectoryIcon Orange
+highlight! link NeoTreeDirectoryIcon FolderBG
 highlight! link NeoTreeGitAdded Green
 highlight! link NeoTreeGitConflict Yellow
 highlight! link NeoTreeGitDeleted Red
