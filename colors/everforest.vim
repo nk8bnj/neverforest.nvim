@@ -2257,7 +2257,7 @@ highlight! link typescriptEndColons Fg
 highlight! link typescriptMember Aqua
 highlight! link typescriptMemberOptionality Orange
 highlight! link typescriptObjectLabel Aqua
-highlight! link typescriptArrowFunc Purple
+highlight! link typescriptArrowFunc Red
 highlight! link typescriptAbstract Orange
 highlight! link typescriptObjectColon Grey
 highlight! link typescriptTypeAnnotation Grey
@@ -2284,7 +2284,7 @@ highlight! link typescriptTemplateSB Yellow
 highlight! link typescriptExceptions RedItalic
 highlight! link typescriptCastKeyword RedItalic
 highlight! link typescriptOptionalMark Orange
-highlight! link typescriptNull Red
+highlight! link typescriptNull Aqua
 highlight! link typescriptMappedIn RedItalic
 highlight! link typescriptFuncTypeArrow Purple
 highlight! link typescriptTernaryOp Orange
