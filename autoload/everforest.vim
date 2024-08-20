@@ -142,7 +142,7 @@ function! everforest#get_palette(background, colors_override) "{{{
           \ 'grey1':      ['#859289',   '245'],
           \ 'grey11':     ['#ff0000',   '245'],
           \ 'grey2':      ['#9da9a0',   '247'],
-          \ 'mode_color':['#6A7A83',   '142'],
+          \ 'mainGrey':['#6A7A83',   '142'],
           \ 'statusline1':['#A9CD73',   '142'],
           \ 'statusline2':['#4DC5B6',   '223'],
           \ 'statusline3':['#D182D8',   '167'],

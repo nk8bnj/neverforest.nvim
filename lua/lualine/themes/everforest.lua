@@ -15,17 +15,17 @@ end
 
 return {
   normal = {
-    a = {bg = palette.mode_color[1], fg = palette.bg0[1], gui = 'bold'},
+    a = {bg = palette.mainGrey[1], fg = palette.bg0[1], gui = 'bold'},
     b = {bg = palette.bg3[1], fg = palette.grey2[1]},
     c = {bg = palette.bg1[1], fg = palette.grey1[1]}
   },
   insert = {
-    a = {bg = palette.mode_color[1], fg = palette.bg0[1], gui = 'bold'},
+    a = {bg = palette.mainGrey[1], fg = palette.bg0[1], gui = 'bold'},
     b = {bg = palette.bg3[1], fg = palette.fg[1]},
     c = {bg = palette.bg1[1], fg = palette.fg[1]}
   },
   visual = {
-    a = {bg = palette.mode_color[1], fg = palette.bg0[1], gui = 'bold'},
+    a = {bg = palette.mainGrey[1], fg = palette.bg0[1], gui = 'bold'},
     b = {bg = palette.bg3[1], fg = palette.fg[1]},
     c = {bg = palette.bg1[1], fg = palette.fg[1]}
   },
@@ -35,12 +35,12 @@ return {
     c = {bg = palette.bg1[1], fg = palette.fg[1]}
   },
   command = {
-    a = {bg = palette.mode_color[1], fg = palette.bg0[1], gui = 'bold'},
+    a = {bg = palette.mainGrey[1], fg = palette.bg0[1], gui = 'bold'},
     b = {bg = palette.bg3[1], fg = palette.fg[1]},
     c = {bg = palette.bg1[1], fg = palette.fg[1]}
   },
   terminal = {
-    a = {bg = palette.mode_color[1], fg = palette.bg0[1], gui = 'bold'},
+    a = {bg = palette.mainGrey[1], fg = palette.bg0[1], gui = 'bold'},
     b = {bg = palette.bg3[1], fg = palette.fg[1]},
     c = {bg = palette.bg1[1], fg = palette.fg[1]}
   },
