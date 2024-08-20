@@ -338,7 +338,7 @@ if s:configuration.enable_italic
   call everforest#highlight('GreenItalic', s:palette.green, s:palette.none, 'italic')
   call everforest#highlight('AquaItalic', s:palette.aqua, s:palette.none, 'italic')
   call everforest#highlight('BlueItalic', s:palette.blue, s:palette.none, 'italic')
-  call everforest#highlight('PurpleItalic', s:palette.red, s:palette.none, 'italic')
+  call everforest#highlight('PurpleItalic', s:palette.purple, s:palette.none, 'italic')
 else
   call everforest#highlight('RedItalic', s:palette.red, s:palette.none)
   call everforest#highlight('OrangeItalic', s:palette.orange, s:palette.none)
@@ -355,7 +355,7 @@ if s:configuration.transparent_background || s:configuration.sign_column_backgro
   call everforest#highlight('GreenSign', s:palette.green, s:palette.none)
   call everforest#highlight('AquaSign', s:palette.aqua, s:palette.none)
   call everforest#highlight('BlueSign', s:palette.blue, s:palette.none)
-  call everforest#highlight('PurpleSign', s:palette.purple, s:palette.none)
+  call everforest#highlight('PurpleSign', s:palette.red, s:palette.none)
 else
   call everforest#highlight('RedSign', s:palette.red, s:palette.bg1)
   call everforest#highlight('OrangeSign', s:palette.orange, s:palette.bg1)
