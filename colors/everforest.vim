@@ -1650,7 +1650,7 @@ if !s:configuration.transparent_background
   call everforest#highlight('NvimTreeCursorLine', s:palette.none, s:palette.bg0)
 endif
 highlight! link NvimTreeSymlink Fg
-highlight! link NvimTreeFolderName Green
+highlight! link NvimTreeFolderName Red
 highlight! link NvimTreeRootFolder Grey
 highlight! link NvimTreeFolderIcon Orange
 highlight! link NvimTreeEmptyFolderName Green
