@@ -276,7 +276,7 @@ if s:configuration.enable_italic
   call everforest#highlight('Define', s:palette.purple, s:palette.none, 'italic')
   call everforest#highlight('Conditional', s:palette.red, s:palette.none, 'italic')
   call everforest#highlight('Repeat', s:palette.red, s:palette.none, 'italic')
-  call everforest#highlight('Keyword', s:palette.red, s:palette.none, 'italic')
+  call everforest#highlight('Keyword', s:palette.green, s:palette.none, 'italic')
   call everforest#highlight('Typedef', s:palette.red, s:palette.none, 'italic')
   call everforest#highlight('Exception', s:palette.red, s:palette.none, 'italic')
   call everforest#highlight('Statement', s:palette.red, s:palette.none, 'italic')
