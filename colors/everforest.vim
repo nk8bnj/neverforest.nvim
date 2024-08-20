@@ -531,7 +531,7 @@ highlight! link TSFuncBuiltin Green
 highlight! link TSFuncMacro Green
 highlight! link TSFunction Green
 highlight! link TSFunctionCall Green
-highlight! link TSInclude Red
+highlight! link TSInclude White
 highlight! link TSKeyword Orange
 highlight! link TSKeywordFunction Red
 highlight! link TSKeywordOperator Orange
@@ -547,7 +547,7 @@ highlight! link TSNumber Purple
 highlight! link TSOperator Orange
 highlight! link TSParameter Fg
 highlight! link TSParameterReference Fg
-highlight! link TSPreProc White
+highlight! link TSPreProc PreProc
 highlight! link TSProperty Blue
 highlight! link TSPunctBracket Fg
 highlight! link TSPunctDelimiter Grey
