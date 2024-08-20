@@ -330,7 +330,7 @@ call everforest#highlight('Yellow', s:palette.yellow, s:palette.none)
 call everforest#highlight('Green', s:palette.green, s:palette.none)
 call everforest#highlight('Aqua', s:palette.aqua, s:palette.none)
 call everforest#highlight('Blue', s:palette.blue, s:palette.none)
-call everforest#highlight('Purple', s:palette.red, s:palette.none)
+call everforest#highlight('Purple', s:palette.purple, s:palette.none)
 if s:configuration.enable_italic
   call everforest#highlight('RedItalic', s:palette.red, s:palette.none, 'italic')
   call everforest#highlight('OrangeItalic', s:palette.orange, s:palette.none, 'italic')
@@ -338,7 +338,7 @@ if s:configuration.enable_italic
   call everforest#highlight('GreenItalic', s:palette.green, s:palette.none, 'italic')
   call everforest#highlight('AquaItalic', s:palette.aqua, s:palette.none, 'italic')
   call everforest#highlight('BlueItalic', s:palette.blue, s:palette.none, 'italic')
-  call everforest#highlight('PurpleItalic', s:palette.purple, s:palette.none, 'italic')
+  call everforest#highlight('PurpleItalic', s:palette.red, s:palette.none, 'italic')
 else
   call everforest#highlight('RedItalic', s:palette.red, s:palette.none)
   call everforest#highlight('OrangeItalic', s:palette.orange, s:palette.none)
