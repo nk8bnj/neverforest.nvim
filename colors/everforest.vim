@@ -509,14 +509,14 @@ call everforest#highlight('TSNote', s:palette.bg0, s:palette.green, 'bold')
 call everforest#highlight('TSWarning', s:palette.bg0, s:palette.yellow, 'bold')
 call everforest#highlight('TSDanger', s:palette.bg0, s:palette.red, 'bold')
 highlight! link TSAnnotation Purple
-highlight! link TSAttribute White
+highlight! link TSAttribute Purple
 highlight! link TSBoolean Purple
 highlight! link TSCharacter Aqua
 highlight! link TSCharacterSpecial SpecialChar
 highlight! link TSComment Comment
 highlight! link TSConditional Red
-highlight! link TSConstBuiltin PurpleItalic
-highlight! link TSConstMacro PurpleItalic
+highlight! link TSConstBuiltin White
+highlight! link TSConstMacro White
 highlight! link TSConstant Fg
 highlight! link TSConstructor Green
 highlight! link TSDebug Debug
