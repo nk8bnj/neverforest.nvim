@@ -441,7 +441,7 @@ let g:everforest_lsp_kind_color = [
       \ ["Keyword", "Red"],
       \ ["Method", "Green"],
       \ ["Module", "Yellow"],
-      \ ["Namespace", "Red"],
+      \ ["Namespace", "Purple"],
       \ ["Null", "Aqua"],
       \ ["Number", "Aqua"],
       \ ["Object", "Aqua"],
@@ -2049,7 +2049,7 @@ highlight! link lessFunction Yellow
 highlight! link javaScriptNull Aqua
 highlight! link javaScriptNumber Number
 highlight! link javaScriptIdentifier Orange
-highlight! link javaScriptGlobal Purple
+highlight! link javaScriptGlobal Red
 highlight! link javaScriptMessage Yellow
 highlight! link javaScriptFunction Keyword
 highlight! link javaScriptOperator Orange
