@@ -1621,7 +1621,7 @@ endfor
 " syn_end }}}
 " syn_begin: nerdtree {{{
 " https://github.com/preservim/nerdtree
-highlight! link NERDTreeDir Red
+highlight! link NERDTreeDir Green
 highlight! link NERDTreeDirSlash Aqua
 highlight! link NERDTreeOpenable Orange
 highlight! link NERDTreeClosable Orange
@@ -1701,10 +1701,10 @@ highlight! link NeoTreeGitModified Blue
 highlight! link NeoTreeGitUnstaged Purple
 highlight! link NeoTreeGitUntracked Fg
 highlight! link NeoTreeGitStaged Purple
-highlight! link NeoTreeDimText Grey
-highlight! link NeoTreeIndentMarker NonText
-highlight! link NeoTreeNormalNC NeoTreeNormal
-highlight! link NeoTreeSignColumn NeoTreeNormal
+highlight! link NeoTreeDimText Red
+highlight! link NeoTreeIndentMarker Red
+highlight! link NeoTreeNormalNC Red
+highlight! link NeoTreeSignColumn Red
 highlight! link NeoTreeRootName Title
 " syn_end }}}
 " syn_begin: octo {{{
