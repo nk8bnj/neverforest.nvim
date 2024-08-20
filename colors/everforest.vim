@@ -2056,7 +2056,7 @@ highlight! link javaScriptOperator Orange
 highlight! link javaScriptMember Aqua
 " }}}
 " vim-javascript: https://github.com/pangloss/vim-javascript {{{
-highlight! link jsString Red
+highlight! link jsString Aqua
 highlight! link jsTemplateString jsString
 highlight! link jsThis Purple
 highlight! link jsUndefined Aqua
