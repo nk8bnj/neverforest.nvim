@@ -526,7 +526,7 @@ highlight! link TSEnvironmentName Type
 highlight! link TSError Error
 highlight! link TSException Red
 highlight! link TSField Blue
-highlight! link TSFloat White
+highlight! link TSFloat Purple
 highlight! link TSFuncBuiltin Green
 highlight! link TSFuncMacro Green
 highlight! link TSFunction Green
@@ -1233,7 +1233,7 @@ highlight! link rainbowcol3 Yellow
 highlight! link rainbowcol4 Green
 highlight! link rainbowcol5 Aqua
 highlight! link rainbowcol6 Blue
-highlight! link rainbowcol7 Purple
+highlight! link rainbowcol7 White
 " }}}
 " romgrk/barbar.nvim {{{
 call everforest#highlight('BufferCurrent', s:palette.fg, s:palette.bg0)
