@@ -2011,7 +2011,7 @@ highlight! link scssSelectorChar Red
 highlight! link scssSelectorName RedItalic
 highlight! link scssInterpolationDelimiter Green
 highlight! link scssVariableValue Green
-highlight! link scssNull Red
+highlight! link scssNull Purple
 highlight! link scssBoolean Purple
 highlight! link scssVariableAssignment Grey
 highlight! link scssForKeyword PurpleItalic
@@ -2238,7 +2238,7 @@ highlight! link typescriptMessage Yellow
 highlight! link typescriptGlobalObjects Aqua
 highlight! link typescriptInterpolation Yellow
 highlight! link typescriptInterpolationDelimiter Yellow
-highlight! link typescriptBraces Fg
+highlight! link typescriptBraces Red
 highlight! link typescriptParens Fg
 " }}}
 " yats: https:github.com/HerringtonDarkholme/yats.vim {{{
