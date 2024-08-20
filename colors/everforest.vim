@@ -2275,7 +2275,7 @@ highlight! link typescriptOperator RedItalic
 highlight! link typescriptNodeGlobal PurpleItalic
 highlight! link typescriptExport PurpleItalic
 highlight! link typescriptDefaultParam Orange
-highlight! link typescriptImport White
+highlight! link typescriptImport PurpleItalic
 highlight! link typescriptTypeParameter Yellow
 highlight! link typescriptReadonlyModifier Orange
 highlight! link typescriptAccessibilityModifier Orange
@@ -2386,7 +2386,7 @@ highlight! link typescriptBOMHistoryProp Aqua
 highlight! link typescriptMathStaticProp Aqua
 " }}}
 " nvim-treesitter/nvim-treesitter {{{
-highlight! link typescriptTSInclude Purple
+highlight! link typescriptTSInclude White
 highlight! link tsxTSConstructor TSType
 if has('nvim-0.8')
   highlight! link @include.typescript typescriptTSInclude
