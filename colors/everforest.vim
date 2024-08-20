@@ -1935,7 +1935,7 @@ call everforest#highlight('htmlH2', s:palette.orange, s:palette.none, 'bold')
 call everforest#highlight('htmlH3', s:palette.yellow, s:palette.none, 'bold')
 call everforest#highlight('htmlH4', s:palette.green, s:palette.none, 'bold')
 call everforest#highlight('htmlH5', s:palette.blue, s:palette.none, 'bold')
-call everforest#highlight('htmlH6', s:palette.red, s:palette.none, 'bold')
+call everforest#highlight('htmlH6', s:palette.purple, s:palette.none, 'bold')
 call everforest#highlight('htmlLink', s:palette.none, s:palette.none, 'underline')
 call everforest#highlight('htmlBold', s:palette.none, s:palette.none, 'bold')
 call everforest#highlight('htmlBoldUnderline', s:palette.none, s:palette.none, 'bold,underline')
@@ -2112,7 +2112,7 @@ highlight! link javascriptDocNotation Purple
 highlight! link javascriptClassSuper Purple
 highlight! link javascriptClassName Yellow
 highlight! link javascriptClassSuperName Yellow
-highlight! link javascriptBrackets Fg
+highlight! link javascriptBrackets Red
 highlight! link javascriptBraces Fg
 highlight! link javascriptLabel Purple
 highlight! link javascriptDotNotation Grey
