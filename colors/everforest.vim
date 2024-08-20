@@ -526,12 +526,12 @@ highlight! link TSEnvironmentName Type
 highlight! link TSError Error
 highlight! link TSException Red
 highlight! link TSField Blue
-highlight! link TSFloat Purple
+highlight! link TSFloat White
 highlight! link TSFuncBuiltin Green
 highlight! link TSFuncMacro Green
 highlight! link TSFunction Green
 highlight! link TSFunctionCall Green
-highlight! link TSInclude White
+highlight! link TSInclude Red
 highlight! link TSKeyword Orange
 highlight! link TSKeywordFunction Red
 highlight! link TSKeywordOperator Orange
