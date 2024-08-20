@@ -2268,13 +2268,13 @@ highlight! link typescriptFuncComma Fg
 highlight! link typescriptClassName Yellow
 highlight! link typescriptClassHeritage Yellow
 highlight! link typescriptInterfaceHeritage Yellow
-highlight! link typescriptIdentifier Red
-highlight! link typescriptGlobal Red
+highlight! link typescriptIdentifier Purple
+highlight! link typescriptGlobal Purple
 highlight! link typescriptOperator RedItalic
 highlight! link typescriptNodeGlobal PurpleItalic
 highlight! link typescriptExport PurpleItalic
 highlight! link typescriptDefaultParam Orange
-highlight! link typescriptImport PurpleItalic
+highlight! link typescriptImport Red
 highlight! link typescriptTypeParameter Yellow
 highlight! link typescriptReadonlyModifier Orange
 highlight! link typescriptAccessibilityModifier Orange
