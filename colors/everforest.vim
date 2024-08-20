@@ -573,8 +573,8 @@ highlight! link TSTypeBuiltin YellowItalic
 highlight! link TSTypeDefinition YellowItalic
 highlight! link TSTypeQualifier Orange
 call everforest#highlight('TSURI', s:palette.blue, s:palette.none, 'underline')
-highlight! link TSVariable YellowItalic
-highlight! link TSVariableBuiltin White
+highlight! link TSVariable White
+highlight! link TSVariableBuiltin PurpleItalic
 if has('nvim-0.8')
   highlight! link @annotation TSAnnotation
   highlight! link @attribute TSAttribute
