@@ -2386,7 +2386,7 @@ highlight! link typescriptBOMHistoryProp Aqua
 highlight! link typescriptMathStaticProp Aqua
 " }}}
 " nvim-treesitter/nvim-treesitter {{{
-highlight! link typescriptTSInclude White
+highlight! link typescriptTSInclude Red
 highlight! link tsxTSConstructor TSType
 if has('nvim-0.8')
   highlight! link @include.typescript typescriptTSInclude
