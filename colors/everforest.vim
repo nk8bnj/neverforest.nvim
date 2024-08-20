@@ -1693,7 +1693,7 @@ if !s:configuration.transparent_background
   call everforest#highlight('NeoTreeVertSplit', s:palette.bg0, s:palette.bg0)
 endif
 highlight! link NeoTreeDirectoryIcon FolderBG
-highlight! link NeoTreeGitAdded Green
+highlight! link NeoTreeGitAdded Red
 highlight! link NeoTreeGitConflict Yellow
 highlight! link NeoTreeGitDeleted Red
 highlight! link NeoTreeGitIgnored Grey
@@ -1705,7 +1705,7 @@ highlight! link NeoTreeDimText Grey
 highlight! link NeoTreeIndentMarker NonText
 highlight! link NeoTreeNormalNC NeoTreeNormal
 highlight! link NeoTreeSignColumn NeoTreeNormal
-highlight! link NeoTreeRootName Red
+highlight! link NeoTreeRootName Title
 " syn_end }}}
 " syn_begin: octo {{{
 " https://github.com/pwntester/octo.nvim
