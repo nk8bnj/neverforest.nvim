@@ -433,7 +433,7 @@ let g:everforest_lsp_kind_color = [
       \ ["EnumMember", "Purple"],
       \ ["Event", "Orange"],
       \ ["Field", "Green"],
-      \ ["File", "Green"],
+      \ ["File", "Red"],
       \ ["Folder", "Aqua"],
       \ ["Function", "Green"],
       \ ["Interface", "Yellow"],
@@ -1693,7 +1693,7 @@ if !s:configuration.transparent_background
   call everforest#highlight('NeoTreeVertSplit', s:palette.bg0, s:palette.bg0)
 endif
 highlight! link NeoTreeDirectoryIcon FolderBG
-highlight! link NeoTreeGitAdded Red
+highlight! link NeoTreeGitAdded Green
 highlight! link NeoTreeGitConflict Yellow
 highlight! link NeoTreeGitDeleted Red
 highlight! link NeoTreeGitIgnored Grey
