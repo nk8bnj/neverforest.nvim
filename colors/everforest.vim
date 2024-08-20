@@ -516,7 +516,7 @@ highlight! link TSComment Comment
 highlight! link TSConditional Red
 highlight! link TSConstBuiltin PurpleItalic
 highlight! link TSConstMacro PurpleItalic
-highlight! link TSConstant Red
+highlight! link TSConstant Fg
 highlight! link TSConstructor Green
 highlight! link TSDebug Debug
 highlight! link TSDefine Define
@@ -572,7 +572,7 @@ highlight! link TSTypeBuiltin YellowItalic
 highlight! link TSTypeDefinition YellowItalic
 highlight! link TSTypeQualifier Orange
 call everforest#highlight('TSURI', s:palette.blue, s:palette.none, 'underline')
-highlight! link TSVariable Fg
+highlight! link TSVariable Red
 highlight! link TSVariableBuiltin PurpleItalic
 if has('nvim-0.8')
   highlight! link @annotation TSAnnotation
