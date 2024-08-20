@@ -2233,7 +2233,7 @@ highlight! link jsxAttrib Aqua
 " syn_end }}}
 " syn_begin: typescript/typescriptreact {{{
 " vim-typescript: https://github.com/leafgarland/typescript-vim {{{
-highlight! link typescriptSource Red
+highlight! link typescriptSource PurpleItalic
 highlight! link typescriptMessage Yellow
 highlight! link typescriptGlobalObjects Aqua
 highlight! link typescriptInterpolation Yellow
@@ -2268,8 +2268,8 @@ highlight! link typescriptFuncComma Fg
 highlight! link typescriptClassName Yellow
 highlight! link typescriptClassHeritage Yellow
 highlight! link typescriptInterfaceHeritage Yellow
-highlight! link typescriptIdentifier Purple
-highlight! link typescriptGlobal Purple
+highlight! link typescriptIdentifier Red
+highlight! link typescriptGlobal Red
 highlight! link typescriptOperator RedItalic
 highlight! link typescriptNodeGlobal PurpleItalic
 highlight! link typescriptExport PurpleItalic
