@@ -147,7 +147,7 @@ function! everforest#get_palette(background, colors_override) "{{{
           \ 'mainAqua':['#60B8AD',   '142'],
           \ 'statusline1':['#A9CD73',   '142'],
           \ 'statusline2':['#4DC5B6',   '223'],
-          \ 'statusline3':['#ffffff',   '167'],
+          \ 'statusline3':['#D182D8',   '167'],
           \ 'statusline4':['#889DA7',   '167'],
           \ 'none':       ['NONE',      'NONE']
           \ } "}}}

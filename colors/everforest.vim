@@ -438,7 +438,7 @@ let g:everforest_lsp_kind_color = [
       \ ["Function", "Green"],
       \ ["Interface", "Yellow"],
       \ ["Key", "Red"],
-      \ ["Keyword", "Red"],
+      \ ["Keyword", "Green"],
       \ ["Method", "Green"],
       \ ["Module", "Yellow"],
       \ ["Namespace", "Purple"],
