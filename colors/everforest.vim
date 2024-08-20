@@ -2011,7 +2011,7 @@ highlight! link scssSelectorChar Red
 highlight! link scssSelectorName RedItalic
 highlight! link scssInterpolationDelimiter Green
 highlight! link scssVariableValue Green
-highlight! link scssNull Purple
+highlight! link scssNull Red
 highlight! link scssBoolean Purple
 highlight! link scssVariableAssignment Grey
 highlight! link scssForKeyword PurpleItalic
