@@ -528,8 +528,8 @@ highlight! link TSError Error
 highlight! link TSException Red
 highlight! link TSField Blue
 highlight! link TSFloat Purple
-highlight! link TSFuncBuiltin ST2
-highlight! link TSFuncMacro White
+highlight! link TSFuncBuiltin Green
+highlight! link TSFuncMacro ST2
 highlight! link TSFunction White
 highlight! link TSFunctionCall White
 highlight! link TSInclude Red
