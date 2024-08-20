@@ -543,7 +543,7 @@ highlight! link TSMethod Green
 highlight! link TSMethodCall Green
 highlight! link TSNamespace YellowItalic
 highlight! link TSNone Fg
-highlight! link TSNumber White
+highlight! link TSNumber Purple
 highlight! link TSOperator Orange
 highlight! link TSParameter Fg
 highlight! link TSParameterReference Fg
@@ -574,7 +574,7 @@ highlight! link TSTypeDefinition YellowItalic
 highlight! link TSTypeQualifier Orange
 call everforest#highlight('TSURI', s:palette.blue, s:palette.none, 'underline')
 highlight! link TSVariable YellowItalic
-highlight! link TSVariableBuiltin PurpleItalic
+highlight! link TSVariableBuiltin White
 if has('nvim-0.8')
   highlight! link @annotation TSAnnotation
   highlight! link @attribute TSAttribute
