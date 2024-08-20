@@ -433,7 +433,7 @@ let g:everforest_lsp_kind_color = [
       \ ["EnumMember", "Purple"],
       \ ["Event", "Orange"],
       \ ["Field", "Green"],
-      \ ["File", "Red"],
+      \ ["File", "Green"],
       \ ["Folder", "Aqua"],
       \ ["Function", "Green"],
       \ ["Interface", "Yellow"],
@@ -1621,7 +1621,7 @@ endfor
 " syn_end }}}
 " syn_begin: nerdtree {{{
 " https://github.com/preservim/nerdtree
-highlight! link NERDTreeDir Green
+highlight! link NERDTreeDir Red
 highlight! link NERDTreeDirSlash Aqua
 highlight! link NERDTreeOpenable Orange
 highlight! link NERDTreeClosable Orange
