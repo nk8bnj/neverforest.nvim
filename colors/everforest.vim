@@ -2049,7 +2049,7 @@ highlight! link lessFunction Yellow
 highlight! link javaScriptNull Aqua
 highlight! link javaScriptNumber Number
 highlight! link javaScriptIdentifier Orange
-highlight! link javaScriptGlobal Red
+highlight! link javaScriptGlobal Purple
 highlight! link javaScriptMessage Yellow
 highlight! link javaScriptFunction Keyword
 highlight! link javaScriptOperator Orange
@@ -2062,7 +2062,7 @@ highlight! link jsThis Purple
 highlight! link jsUndefined Aqua
 highlight! link jsNull Aqua
 highlight! link jsNan Aqua
-highlight! link jsSuper Purple
+highlight! link jsSuper Red
 highlight! link jsPrototype Purple
 highlight! link jsFunction Keyword
 highlight! link jsGlobalNodeObjects Include
