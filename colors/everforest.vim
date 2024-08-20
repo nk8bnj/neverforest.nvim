@@ -518,7 +518,7 @@ highlight! link TSConditional Red
 highlight! link TSConstBuiltin PurpleItalic
 highlight! link TSConstMacro PurpleItalic
 highlight! link TSConstant Fg
-highlight! link TSConstructor White
+highlight! link TSConstructor Green
 highlight! link TSDebug Debug
 highlight! link TSDefine Define
 highlight! link TSEnvironment Macro
@@ -527,10 +527,10 @@ highlight! link TSError Error
 highlight! link TSException Red
 highlight! link TSField Blue
 highlight! link TSFloat Purple
-highlight! link TSFuncBuiltin Green
-highlight! link TSFuncMacro Green
-highlight! link TSFunction Green
-highlight! link TSFunctionCall Green
+highlight! link TSFuncBuiltin White
+highlight! link TSFuncMacro White
+highlight! link TSFunction White
+highlight! link TSFunctionCall White
 highlight! link TSInclude Red
 highlight! link TSKeyword Orange
 highlight! link TSKeywordFunction Red
