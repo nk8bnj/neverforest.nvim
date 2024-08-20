@@ -323,7 +323,7 @@ call everforest#highlight('Underlined', s:palette.none, s:palette.none, 'underli
 " Predefined Highlight Groups: {{{
 call everforest#highlight('Fg', s:palette.fg, s:palette.none)
 call everforest#highlight('Grey', s:palette.grey1, s:palette.none)
-call everforest#highlight('Red', s:palette.red, s:palette.none)
+call everforest#highlight('Red', s:palette.red, s:palette.none, 'italic')
 call everforest#highlight('Orange', s:palette.orange, s:palette.none)
 call everforest#highlight('FolderBG', s:palette.statusline4, s:palette.none)
 call everforest#highlight('Yellow', s:palette.yellow, s:palette.none)
