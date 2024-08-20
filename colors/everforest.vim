@@ -516,7 +516,7 @@ highlight! link TSComment Comment
 highlight! link TSConditional Red
 highlight! link TSConstBuiltin PurpleItalic
 highlight! link TSConstMacro PurpleItalic
-highlight! link TSConstant Fg
+highlight! link TSConstant Red
 highlight! link TSConstructor Green
 highlight! link TSDebug Debug
 highlight! link TSDefine Define
