@@ -120,7 +120,7 @@ call everforest#highlight('DiffAdd', s:palette.none, s:palette.bg_green)
 call everforest#highlight('DiffChange', s:palette.none, s:palette.bg_blue)
 call everforest#highlight('DiffDelete', s:palette.none, s:palette.bg_red)
 call everforest#highlight('DiffText', s:palette.bg0, s:palette.blue)
-call everforest#highlight('Directory', s:palette.green, s:palette.none)
+call everforest#highlight('Directory', s:palette.red, s:palette.none)
 call everforest#highlight('ErrorMsg', s:palette.red, s:palette.none, 'bold,underline')
 call everforest#highlight('WarningMsg', s:palette.yellow, s:palette.none, 'bold')
 call everforest#highlight('ModeMsg', s:palette.fg, s:palette.none, 'bold')
@@ -1701,10 +1701,10 @@ highlight! link NeoTreeGitModified Blue
 highlight! link NeoTreeGitUnstaged Purple
 highlight! link NeoTreeGitUntracked Fg
 highlight! link NeoTreeGitStaged Purple
-highlight! link NeoTreeDimText Red
-highlight! link NeoTreeIndentMarker Red
-highlight! link NeoTreeNormalNC Red
-highlight! link NeoTreeSignColumn Red
+highlight! link NeoTreeDimText Grey
+highlight! link NeoTreeIndentMarker NonText
+highlight! link NeoTreeNormalNC NeoTreeNormal
+highlight! link NeoTreeSignColumn NeoTreeNormal
 highlight! link NeoTreeRootName Title
 " syn_end }}}
 " syn_begin: octo {{{
