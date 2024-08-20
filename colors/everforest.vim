@@ -331,6 +331,7 @@ call everforest#highlight('Green', s:palette.green, s:palette.none)
 call everforest#highlight('Aqua', s:palette.aqua, s:palette.none)
 call everforest#highlight('Blue', s:palette.blue, s:palette.none)
 call everforest#highlight('Purple', s:palette.purple, s:palette.none)
+call everforest#highlight('White', s:palette.white, s:palette.none)
 if s:configuration.enable_italic
   call everforest#highlight('RedItalic', s:palette.red, s:palette.none, 'italic')
   call everforest#highlight('OrangeItalic', s:palette.orange, s:palette.none, 'italic')
@@ -507,7 +508,7 @@ call everforest#highlight('TSUnderline', s:palette.none, s:palette.none, 'underl
 call everforest#highlight('TSNote', s:palette.bg0, s:palette.green, 'bold')
 call everforest#highlight('TSWarning', s:palette.bg0, s:palette.yellow, 'bold')
 call everforest#highlight('TSDanger', s:palette.bg0, s:palette.red, 'bold')
-highlight! link TSAnnotation Purple
+highlight! link TSAnnotation White
 highlight! link TSAttribute Purple
 highlight! link TSBoolean Purple
 highlight! link TSCharacter Aqua
