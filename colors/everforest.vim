@@ -2083,7 +2083,7 @@ highlight! link jsTemplateBraces Yellow
 highlight! link jsClassMethodType Orange
 " }}}
 " nvim-treesitter/nvim-treesitter {{{
-highlight! link javascriptTSInclude White
+highlight! link javascriptTSInclude Purple
 if has('nvim-0.8')
   highlight! link @include.javascript javascriptTSInclude
   highlight! link @keyword.import.javascript javascriptTSInclude
@@ -2275,7 +2275,7 @@ highlight! link typescriptOperator RedItalic
 highlight! link typescriptNodeGlobal PurpleItalic
 highlight! link typescriptExport PurpleItalic
 highlight! link typescriptDefaultParam Orange
-highlight! link typescriptImport PurpleItalic
+highlight! link typescriptImport White
 highlight! link typescriptTypeParameter Yellow
 highlight! link typescriptReadonlyModifier Orange
 highlight! link typescriptAccessibilityModifier Orange
