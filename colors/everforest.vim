@@ -515,8 +515,8 @@ highlight! link TSCharacter Aqua
 highlight! link TSCharacterSpecial SpecialChar
 highlight! link TSComment Comment
 highlight! link TSConditional Red
-highlight! link TSConstBuiltin White
-highlight! link TSConstMacro White
+highlight! link TSConstBuiltin PurpleItalic
+highlight! link TSConstMacro PurpleItalic
 highlight! link TSConstant Fg
 highlight! link TSConstructor Green
 highlight! link TSDebug Debug
@@ -543,7 +543,7 @@ highlight! link TSMethod Green
 highlight! link TSMethodCall Green
 highlight! link TSNamespace YellowItalic
 highlight! link TSNone Fg
-highlight! link TSNumber Purple
+highlight! link TSNumber White
 highlight! link TSOperator Orange
 highlight! link TSParameter Fg
 highlight! link TSParameterReference Fg
