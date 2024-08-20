@@ -529,8 +529,8 @@ highlight! link TSException Red
 highlight! link TSField Blue
 highlight! link TSFloat Purple
 highlight! link TSFuncBuiltin Green
-highlight! link TSFuncMacro ST2
-highlight! link TSFunction White
+highlight! link TSFuncMacro Green
+highlight! link TSFunction ST2
 highlight! link TSFunctionCall White
 highlight! link TSInclude Red
 highlight! link TSKeyword Orange
