@@ -355,7 +355,7 @@ if s:configuration.transparent_background || s:configuration.sign_column_backgro
   call everforest#highlight('GreenSign', s:palette.green, s:palette.none)
   call everforest#highlight('AquaSign', s:palette.aqua, s:palette.none)
   call everforest#highlight('BlueSign', s:palette.blue, s:palette.none)
-  call everforest#highlight('PurpleSign', s:palette.red, s:palette.none)
+  call everforest#highlight('PurpleSign', s:palette.purple, s:palette.none)
 else
   call everforest#highlight('RedSign', s:palette.red, s:palette.bg1)
   call everforest#highlight('OrangeSign', s:palette.orange, s:palette.bg1)
@@ -441,7 +441,7 @@ let g:everforest_lsp_kind_color = [
       \ ["Keyword", "Red"],
       \ ["Method", "Green"],
       \ ["Module", "Yellow"],
-      \ ["Namespace", "Purple"],
+      \ ["Namespace", "Red"],
       \ ["Null", "Aqua"],
       \ ["Number", "Aqua"],
       \ ["Object", "Aqua"],
