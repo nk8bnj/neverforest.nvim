@@ -508,8 +508,8 @@ call everforest#highlight('TSUnderline', s:palette.none, s:palette.none, 'underl
 call everforest#highlight('TSNote', s:palette.bg0, s:palette.green, 'bold')
 call everforest#highlight('TSWarning', s:palette.bg0, s:palette.yellow, 'bold')
 call everforest#highlight('TSDanger', s:palette.bg0, s:palette.red, 'bold')
-highlight! link TSAnnotation White
-highlight! link TSAttribute Purple
+highlight! link TSAnnotation Purple
+highlight! link TSAttribute White
 highlight! link TSBoolean Purple
 highlight! link TSCharacter Aqua
 highlight! link TSCharacterSpecial SpecialChar
