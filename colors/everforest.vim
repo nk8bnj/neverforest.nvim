@@ -2062,7 +2062,7 @@ highlight! link jsThis Purple
 highlight! link jsUndefined Aqua
 highlight! link jsNull Aqua
 highlight! link jsNan Aqua
-highlight! link jsSuper Red
+highlight! link jsSuper Purple
 highlight! link jsPrototype Purple
 highlight! link jsFunction Keyword
 highlight! link jsGlobalNodeObjects Include
@@ -2233,7 +2233,7 @@ highlight! link jsxAttrib Aqua
 " syn_end }}}
 " syn_begin: typescript/typescriptreact {{{
 " vim-typescript: https://github.com/leafgarland/typescript-vim {{{
-highlight! link typescriptSource PurpleItalic
+highlight! link typescriptSource Red
 highlight! link typescriptMessage Yellow
 highlight! link typescriptGlobalObjects Aqua
 highlight! link typescriptInterpolation Yellow
