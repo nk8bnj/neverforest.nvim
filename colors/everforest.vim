@@ -1654,7 +1654,7 @@ highlight! link NvimTreeFolderName Green
 highlight! link NvimTreeRootFolder Grey
 highlight! link NvimTreeFolderIcon Orange
 highlight! link NvimTreeEmptyFolderName Green
-highlight! link NvimTreeOpenedFolderName Red
+highlight! link NvimTreeOpenedFolderName Green
 highlight! link NvimTreeExecFile Fg
 highlight! link NvimTreeOpenedFile Fg
 highlight! link NvimTreeSpecialFile Fg
@@ -1705,7 +1705,7 @@ highlight! link NeoTreeDimText Grey
 highlight! link NeoTreeIndentMarker NonText
 highlight! link NeoTreeNormalNC NeoTreeNormal
 highlight! link NeoTreeSignColumn NeoTreeNormal
-highlight! link NeoTreeRootName Title
+highlight! link NeoTreeRootName Red
 " syn_end }}}
 " syn_begin: octo {{{
 " https://github.com/pwntester/octo.nvim
