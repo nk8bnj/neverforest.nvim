@@ -1233,7 +1233,7 @@ highlight! link rainbowcol3 Yellow
 highlight! link rainbowcol4 Green
 highlight! link rainbowcol5 Aqua
 highlight! link rainbowcol6 Blue
-highlight! link rainbowcol7 White
+highlight! link rainbowcol7 Purple
 " }}}
 " romgrk/barbar.nvim {{{
 call everforest#highlight('BufferCurrent', s:palette.fg, s:palette.bg0)
@@ -2083,7 +2083,7 @@ highlight! link jsTemplateBraces Yellow
 highlight! link jsClassMethodType Orange
 " }}}
 " nvim-treesitter/nvim-treesitter {{{
-highlight! link javascriptTSInclude Purple
+highlight! link javascriptTSInclude White
 if has('nvim-0.8')
   highlight! link @include.javascript javascriptTSInclude
   highlight! link @keyword.import.javascript javascriptTSInclude
