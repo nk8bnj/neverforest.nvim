@@ -144,6 +144,7 @@ function! everforest#get_palette(background, colors_override) "{{{
           \ 'grey11':     ['#ff0000',   '245'],
           \ 'grey2':      ['#9da9a0',   '247'],
           \ 'mainGrey':['#6A7A83',   '142'],
+          \ 'darkGrey':['#485259',   '142'],
           \ 'mainAqua':['#60B8AD',   '142'],
           \ 'statusline1':['#A9CD73',   '142'],
           \ 'statusline2':['#4DC5B6',   '223'],
