@@ -134,6 +134,7 @@ function! everforest#get_palette(background, colors_override) "{{{
           \ 'red':        ['#EE6060',   '167'],
           \ 'orange':     ['#F38E61',   '208'],
           \ 'yellow':     ['#EFBD58',   '214'],
+          \ 'darkYellow':     ['#CAA04C',   '214'],
           \ 'green':      ['#A9CD73',   '142'],
           \ 'aqua':       ['#69CA81',   '108'],
           \ 'blue':       ['#4DC5B6',   '109'],
