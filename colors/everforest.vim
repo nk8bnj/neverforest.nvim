@@ -133,11 +133,11 @@ if has('nvim')
 else
   call everforest#highlight('SpecialKey', s:palette.bg3, s:palette.none)
 endif
-call everforest#highlight('Pmenu', s:palette.fg, s:palette.bg2)
-call everforest#highlight('PmenuSbar', s:palette.none, s:palette.bg2)
+call everforest#highlight('Pmenu', s:palette.fg, s:palette.red)
+call everforest#highlight('PmenuSbar', s:palette.none, s:palette.red)
 call everforest#highlight('PmenuSel', s:palette.bg0, s:palette.statusline1)
-call everforest#highlight('PmenuKind', s:palette.green, s:palette.bg2)
-call everforest#highlight('PmenuExtra', s:palette.grey2, s:palette.bg2)
+call everforest#highlight('PmenuKind', s:palette.green, s:palette.red)
+call everforest#highlight('PmenuExtra', s:palette.grey2, s:palette.red)
 highlight! link WildMenu PmenuSel
 call everforest#highlight('PmenuThumb', s:palette.none, s:palette.grey0)
 if s:configuration.float_style ==# 'dim'
@@ -145,9 +145,9 @@ if s:configuration.float_style ==# 'dim'
   call everforest#highlight('FloatBorder', s:palette.grey1, s:palette.bg_dim)
   call everforest#highlight('FloatTitle', s:palette.fg, s:palette.bg_dim, 'bold')
 else
-  call everforest#highlight('NormalFloat', s:palette.fg, s:palette.bg2)
-  call everforest#highlight('FloatBorder', s:palette.grey1, s:palette.bg2)
-  call everforest#highlight('FloatTitle', s:palette.fg, s:palette.bg2, 'bold')
+  call everforest#highlight('NormalFloat', s:palette.fg, s:palette.red)
+  call everforest#highlight('FloatBorder', s:palette.grey1, s:palette.red)
+  call everforest#highlight('FloatTitle', s:palette.fg, s:palette.red, 'bold')
 endif
 call everforest#highlight('Question', s:palette.yellow, s:palette.none)
 if s:configuration.spell_foreground ==# 'none'
@@ -1369,12 +1369,12 @@ call everforest#highlight('MiniStatuslineModeOther', s:palette.bg0, s:palette.pu
 call everforest#highlight('MiniStatuslineModeReplace', s:palette.bg0, s:palette.orange, 'bold')
 call everforest#highlight('MiniStatuslineModeVisual', s:palette.bg0, s:palette.statusline3, 'bold')
 call everforest#highlight('MiniTablineCurrent', s:palette.fg, s:palette.bg4)
-call everforest#highlight('MiniTablineHidden', s:palette.grey1, s:palette.red)
+call everforest#highlight('MiniTablineHidden', s:palette.grey1, s:palette.bg2)
 call everforest#highlight('MiniTablineModifiedCurrent', s:palette.blue, s:palette.bg4)
-call everforest#highlight('MiniTablineModifiedHidden', s:palette.grey1, s:palette.red)
-call everforest#highlight('MiniTablineModifiedVisible', s:palette.blue, s:palette.red)
+call everforest#highlight('MiniTablineModifiedHidden', s:palette.grey1, s:palette.bg2)
+call everforest#highlight('MiniTablineModifiedVisible', s:palette.blue, s:palette.bg2)
 call everforest#highlight('MiniTablineTabpagesection', s:palette.bg0, s:palette.statusline1, 'bold')
-call everforest#highlight('MiniTablineVisible', s:palette.fg, s:palette.red)
+call everforest#highlight('MiniTablineVisible', s:palette.fg, s:palette.bg2)
 call everforest#highlight('MiniTestEmphasis', s:palette.none, s:palette.none, 'bold')
 call everforest#highlight('MiniTestFail', s:palette.red, s:palette.none, 'bold')
 call everforest#highlight('MiniTestPass', s:palette.green, s:palette.none, 'bold')
