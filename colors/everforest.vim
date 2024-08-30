@@ -147,7 +147,7 @@ if s:configuration.float_style ==# 'dim'
 else
   call everforest#highlight('NormalFloat', s:palette.fg, s:palette.bg0)
   call everforest#highlight('FloatBorder', s:palette.grey1, s:palette.bg0)
-  call everforest#highlight('FloatTitle', s:palette.fg, s:palette.red, 'bold')
+  call everforest#highlight('FloatTitle', s:palette.fg, s:palette.bg0, 'bold')
 endif
 call everforest#highlight('Question', s:palette.yellow, s:palette.none)
 if s:configuration.spell_foreground ==# 'none'
