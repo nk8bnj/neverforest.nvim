@@ -133,11 +133,11 @@ if has('nvim')
 else
   call everforest#highlight('SpecialKey', s:palette.bg3, s:palette.none)
 endif
-call everforest#highlight('Pmenu', s:palette.fg, s:palette.red)
-call everforest#highlight('PmenuSbar', s:palette.none, s:palette.red)
+call everforest#highlight('Pmenu', s:palette.fg, s:palette.bg2)
+call everforest#highlight('PmenuSbar', s:palette.none, s:palette.bg2)
 call everforest#highlight('PmenuSel', s:palette.bg0, s:palette.statusline1)
-call everforest#highlight('PmenuKind', s:palette.green, s:palette.red)
-call everforest#highlight('PmenuExtra', s:palette.grey2, s:palette.red)
+call everforest#highlight('PmenuKind', s:palette.green, s:palette.bg2)
+call everforest#highlight('PmenuExtra', s:palette.grey2, s:palette.bg2)
 highlight! link WildMenu PmenuSel
 call everforest#highlight('PmenuThumb', s:palette.none, s:palette.grey0)
 if s:configuration.float_style ==# 'dim'
@@ -145,7 +145,7 @@ if s:configuration.float_style ==# 'dim'
   call everforest#highlight('FloatBorder', s:palette.grey1, s:palette.bg_dim)
   call everforest#highlight('FloatTitle', s:palette.fg, s:palette.bg_dim, 'bold')
 else
-  call everforest#highlight('NormalFloat', s:palette.fg, s:palette.bg2)
+  call everforest#highlight('NormalFloat', s:palette.fg, s:palette.bg0)
   call everforest#highlight('FloatBorder', s:palette.grey1, s:palette.bg2)
   call everforest#highlight('FloatTitle', s:palette.fg, s:palette.bg2, 'bold')
 endif
