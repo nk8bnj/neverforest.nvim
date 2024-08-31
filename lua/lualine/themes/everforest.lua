@@ -16,8 +16,8 @@ end
 return {
 	normal = {
 		a = { bg = palette.darkYellow[1], fg = palette.mainBlack[1], gui = "bold" },
-		b = { bg = palette.bg0[1], fg = palette.grey2[1] },
-		c = { bg = palette.bg1[1], fg = palette.grey1[1] },
+		b = { bg = palette.bg3[1], fg = palette.grey2[1] },
+		c = { bg = palette.bg0[1], fg = palette.grey1[1] },
 	},
 	insert = {
 		a = { bg = palette.blue[1], fg = palette.mainBlack[1], gui = "bold" },
