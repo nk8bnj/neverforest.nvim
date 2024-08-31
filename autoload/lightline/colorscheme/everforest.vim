@@ -1,14 +1,14 @@
 " =============================================================================
-" URL: https://github.com/sainnhe/everforest
-" Filename: autoload/lightline/colorscheme/everforest.vim
+" URL: https://github.com/sainnhe/neverforest
+" Filename: autoload/lightline/colorscheme/neverforest.vim
 " Author: sainnhe
 " Email: i@sainnhe.dev
 " License: MIT License
 " =============================================================================
 
 " Initialization: {{{
-let s:configuration = everforest#get_configuration()
-let s:palette = everforest#get_palette(s:configuration.background, s:configuration.colors_override)
+let s:configuration = neverforest#get_configuration()
+let s:palette = neverforest#get_palette(s:configuration.background, s:configuration.colors_override)
 if s:configuration.transparent_background == 2
   let s:palette.bg1 = s:palette.none
 endif
@@ -161,7 +161,7 @@ if s:configuration.lightline_disable_bold
   let s:p.tabline.tabsel = [ [ s:tab_sel_fg, s:tab_sel_bg ] ]
 endif
 
-let g:lightline#colorscheme#everforest#palette = lightline#colorscheme#flatten(s:p)
+let g:lightline#colorscheme#neverforest#palette = lightline#colorscheme#flatten(s:p)
 "}}}
 
 " vim: set sw=2 ts=2 sts=2 et tw=80 ft=vim fdm=marker fmr={{{,}}}:

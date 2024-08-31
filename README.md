@@ -10,7 +10,7 @@
 
 ## Introduction
 
-Everforest is a green based color scheme; it's designed to be warm and soft in order to protect developers' eyes.
+neverforest is a green based color scheme; it's designed to be warm and soft in order to protect developers' eyes.
 
 ### Features
 
@@ -29,11 +29,11 @@ Everforest is a green based color scheme; it's designed to be warm and soft in o
 
 ## Documentation
 
-See [`:help everforest.txt`](https://github.com/sainnhe/everforest/blob/master/doc/everforest.txt)
+See [`:help neverforest.txt`](https://github.com/sainnhe/neverforest/blob/master/doc/neverforest.txt)
 
 ## Related Projects
 
-See this [wiki page](https://github.com/sainnhe/everforest/wiki).
+See this [wiki page](https://github.com/sainnhe/neverforest/wiki).
 
 ## Contributing
 

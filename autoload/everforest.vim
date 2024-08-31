@@ -1,36 +1,36 @@
 " =============================================================================
-" URL: https://github.com/sainnhe/everforest
-" Filename: autoload/everforest.vim
+" URL: https://github.com/sainnhe/neverforest
+" Filename: autoload/neverforest.vim
 " Author: sainnhe
 " Email: i@sainnhe.dev
 " License: MIT License
 " =============================================================================
 
-function! everforest#get_configuration() "{{{
+function! neverforest#get_configuration() "{{{
   return {
-        \ 'background': get(g:, 'everforest_background', 'medium'),
-        \ 'transparent_background': get(g:, 'everforest_transparent_background', 0),
-        \ 'dim_inactive_windows': get(g:, 'everforest_dim_inactive_windows', 0),
-        \ 'disable_italic_comment': get(g:, 'everforest_disable_italic_comment', 0),
-        \ 'enable_italic': get(g:, 'everforest_enable_italic', 0),
-        \ 'cursor': get(g:, 'everforest_cursor', 'auto'),
-        \ 'sign_column_background': get(g:, 'everforest_sign_column_background', 'none'),
-        \ 'spell_foreground': get(g:, 'everforest_spell_foreground', 'none'),
-        \ 'ui_contrast': get(g:, 'everforest_ui_contrast', 'low'),
-        \ 'show_eob': get(g:, 'everforest_show_eob', 1),
-        \ 'float_style': get(g:, 'everforest_float_style', 'bright'),
-        \ 'current_word': get(g:, 'everforest_current_word', get(g:, 'everforest_transparent_background', 0) == 0 ? 'grey background' : 'bold'),
-        \ 'inlay_hints_background': get(g:, 'everforest_inlay_hints_background', 'none'),
-        \ 'lightline_disable_bold': get(g:, 'everforest_lightline_disable_bold', 0),
-        \ 'diagnostic_text_highlight': get(g:, 'everforest_diagnostic_text_highlight', 0),
-        \ 'diagnostic_line_highlight': get(g:, 'everforest_diagnostic_line_highlight', 0),
-        \ 'diagnostic_virtual_text': get(g:, 'everforest_diagnostic_virtual_text', 'grey'),
-        \ 'disable_terminal_colors': get(g:, 'everforest_disable_terminal_colors', 0),
-        \ 'better_performance': get(g:, 'everforest_better_performance', 0),
-        \ 'colors_override': get(g:, 'everforest_colors_override', {}),
+        \ 'background': get(g:, 'neverforest_background', 'medium'),
+        \ 'transparent_background': get(g:, 'neverforest_transparent_background', 0),
+        \ 'dim_inactive_windows': get(g:, 'neverforest_dim_inactive_windows', 0),
+        \ 'disable_italic_comment': get(g:, 'neverforest_disable_italic_comment', 0),
+        \ 'enable_italic': get(g:, 'neverforest_enable_italic', 0),
+        \ 'cursor': get(g:, 'neverforest_cursor', 'auto'),
+        \ 'sign_column_background': get(g:, 'neverforest_sign_column_background', 'none'),
+        \ 'spell_foreground': get(g:, 'neverforest_spell_foreground', 'none'),
+        \ 'ui_contrast': get(g:, 'neverforest_ui_contrast', 'low'),
+        \ 'show_eob': get(g:, 'neverforest_show_eob', 1),
+        \ 'float_style': get(g:, 'neverforest_float_style', 'bright'),
+        \ 'current_word': get(g:, 'neverforest_current_word', get(g:, 'neverforest_transparent_background', 0) == 0 ? 'grey background' : 'bold'),
+        \ 'inlay_hints_background': get(g:, 'neverforest_inlay_hints_background', 'none'),
+        \ 'lightline_disable_bold': get(g:, 'neverforest_lightline_disable_bold', 0),
+        \ 'diagnostic_text_highlight': get(g:, 'neverforest_diagnostic_text_highlight', 0),
+        \ 'diagnostic_line_highlight': get(g:, 'neverforest_diagnostic_line_highlight', 0),
+        \ 'diagnostic_virtual_text': get(g:, 'neverforest_diagnostic_virtual_text', 'grey'),
+        \ 'disable_terminal_colors': get(g:, 'neverforest_disable_terminal_colors', 0),
+        \ 'better_performance': get(g:, 'neverforest_better_performance', 0),
+        \ 'colors_override': get(g:, 'neverforest_colors_override', {}),
         \ }
 endfunction "}}}
-function! everforest#get_palette(background, colors_override) "{{{
+function! neverforest#get_palette(background, colors_override) "{{{
   if a:background ==# 'hard' "{{{
     if &background ==# 'dark'
       let palette1 = {
@@ -134,20 +134,20 @@ function! everforest#get_palette(background, colors_override) "{{{
           \ 'red':        ['#EE6060',   '167'],
           \ 'orange':     ['#F38E61',   '208'],
           \ 'yellow':     ['#EFBD58',   '214'],
-          \ 'darkYellow':     ['#CAA04C',   '214'],
           \ 'green':      ['#A9CD73',   '142'],
           \ 'aqua':       ['#69CA81',   '108'],
           \ 'blue':       ['#4DC5B6',   '109'],
           \ 'purple':     ['#D182D8',   '175'],
-          \ 'white':     ['#ffffff',   '175'],
+          \ 'white':      ['#ffffff',   '175'],
           \ 'grey0':      ['#7a8478',   '243'],
           \ 'grey1':      ['#859289',   '245'],
           \ 'grey11':     ['#ff0000',   '245'],
           \ 'grey2':      ['#9da9a0',   '247'],
-          \ 'mainGrey':['#899DA7',   '142'],
-          \ 'mainBlack':['#22272D',   '142'],
-          \ 'darkGrey':['#485259',   '142'],
-          \ 'mainAqua':['#60B8AD',   '142'],
+          \ 'mainGrey':   ['#899DA7',   '142'],
+          \ 'mainBlack':  ['#22272D',   '142'],
+          \ 'darkGrey':   ['#485259',   '142'],
+          \ 'mainAqua':   ['#60B8AD',   '142'],
+          \ 'darkYellow': ['#CAA04C',   '214'],
           \ 'statusline1':['#A9CD73',   '142'],
           \ 'statusline2':['#4DC5B6',   '223'],
           \ 'statusline3':['#D182D8',   '167'],
@@ -175,7 +175,7 @@ function! everforest#get_palette(background, colors_override) "{{{
   endif "}}}
   return extend(extend(palette1, palette2), a:colors_override)
 endfunction "}}}
-function! everforest#highlight(group, fg, bg, ...) "{{{
+function! neverforest#highlight(group, fg, bg, ...) "{{{
   execute 'highlight' a:group
         \ 'guifg=' . a:fg[0]
         \ 'guibg=' . a:bg[0]
@@ -191,54 +191,54 @@ function! everforest#highlight(group, fg, bg, ...) "{{{
           \ a:2[0] :
           \ 'NONE')
 endfunction "}}}
-function! everforest#syn_gen(path, last_modified, msg) "{{{
+function! neverforest#syn_gen(path, last_modified, msg) "{{{
   " Generate the `after/syntax` directory.
-  let full_content = join(readfile(a:path), "\n") " Get the content of `colors/everforest.vim`
+  let full_content = join(readfile(a:path), "\n") " Get the content of `colors/neverforest.vim`
   let syn_conent = []
-  let rootpath = everforest#syn_rootpath(a:path) " Get the path to place the `after/syntax` directory.
+  let rootpath = neverforest#syn_rootpath(a:path) " Get the path to place the `after/syntax` directory.
   call substitute(full_content, '" syn_begin.\{-}syn_end', '\=add(syn_conent, submatch(0))', 'g') " Search for 'syn_begin.\{-}syn_end' (non-greedy) and put all the search results into a list.
   for content in syn_conent
     let syn_list = []
     call substitute(matchstr(matchstr(content, 'syn_begin:.\{-}{{{'), ':.\{-}{{{'), '\(\w\|-\)\+', '\=add(syn_list, submatch(0))', 'g') " Get the file types. }}}}}}
     for syn in syn_list
-      call everforest#syn_write(rootpath, syn, content) " Write the content.
+      call neverforest#syn_write(rootpath, syn, content) " Write the content.
     endfor
   endfor
-  call everforest#syn_write(rootpath, 'text', "let g:everforest_last_modified = '" . a:last_modified . "'") " Write the last modified time to `after/syntax/text/everforest.vim`
+  call neverforest#syn_write(rootpath, 'text', "let g:neverforest_last_modified = '" . a:last_modified . "'") " Write the last modified time to `after/syntax/text/neverforest.vim`
   let syntax_relative_path = has('win32') ? '\after\syntax' : '/after/syntax'
   if a:msg ==# 'update'
-    echohl WarningMsg | echom '[everforest] Updated ' . rootpath . syntax_relative_path | echohl None
-    call everforest#ftplugin_detect(a:path)
+    echohl WarningMsg | echom '[neverforest] Updated ' . rootpath . syntax_relative_path | echohl None
+    call neverforest#ftplugin_detect(a:path)
   else
-    echohl WarningMsg | echom '[everforest] Generated ' . rootpath . syntax_relative_path | echohl None
+    echohl WarningMsg | echom '[neverforest] Generated ' . rootpath . syntax_relative_path | echohl None
     execute 'set runtimepath+=' . fnamemodify(rootpath, ':p') . 'after'
   endif
 endfunction "}}}
-function! everforest#syn_write(rootpath, syn, content) "{{{
+function! neverforest#syn_write(rootpath, syn, content) "{{{
   " Write the content.
-  let syn_path = a:rootpath . '/after/syntax/' . a:syn . '/everforest.vim' " The path of a syntax file.
+  let syn_path = a:rootpath . '/after/syntax/' . a:syn . '/neverforest.vim' " The path of a syntax file.
   " create a new file if it doesn't exist
   if !filereadable(syn_path)
     call mkdir(a:rootpath . '/after/syntax/' . a:syn, 'p')
     call writefile([
-          \ "if !exists('g:colors_name') || g:colors_name !=# 'everforest'",
+          \ "if !exists('g:colors_name') || g:colors_name !=# 'neverforest'",
           \ '    finish',
           \ 'endif'
-          \ ], syn_path, 'a') " Abort if the current color scheme is not everforest.
+          \ ], syn_path, 'a') " Abort if the current color scheme is not neverforest.
     call writefile([
-          \ "if index(g:everforest_loaded_file_types, '" . a:syn . "') ==# -1",
-          \ "    call add(g:everforest_loaded_file_types, '" . a:syn . "')",
+          \ "if index(g:neverforest_loaded_file_types, '" . a:syn . "') ==# -1",
+          \ "    call add(g:neverforest_loaded_file_types, '" . a:syn . "')",
           \ 'else',
           \ '    finish',
           \ 'endif'
           \ ], syn_path, 'a') " Abort if this file type has already been loaded.
   endif
-  " If there is something like `call everforest#highlight()`, then add
+  " If there is something like `call neverforest#highlight()`, then add
   " code to initialize the palette and configuration.
-  if matchstr(a:content, 'everforest#highlight') !=# ''
+  if matchstr(a:content, 'neverforest#highlight') !=# ''
     call writefile([
-          \ 'let s:configuration = everforest#get_configuration()',
-          \ 'let s:palette = everforest#get_palette(s:configuration.background, s:configuration.colors_override)'
+          \ 'let s:configuration = neverforest#get_configuration()',
+          \ 'let s:palette = neverforest#get_palette(s:configuration.background, s:configuration.colors_override)'
           \ ], syn_path, 'a')
   endif
   " Append the content.
@@ -246,7 +246,7 @@ function! everforest#syn_write(rootpath, syn, content) "{{{
   " Add modeline.
   call writefile(['" vim: set sw=2 ts=2 sts=2 et tw=80 ft=vim fdm=marker fmr={{{,}}}:'], syn_path, 'a')
 endfunction "}}}
-function! everforest#syn_rootpath(path) "{{{
+function! neverforest#syn_rootpath(path) "{{{
   " Get the directory where `after/syntax` is generated.
   if (matchstr(a:path, '^/usr/share') ==# '') " Return the plugin directory. The `after/syntax` directory should never be generated in `/usr/share`, even if you are a root user.
     return fnamemodify(a:path, ':p:h:h')
@@ -258,17 +258,17 @@ function! everforest#syn_rootpath(path) "{{{
     endif
   endif
 endfunction "}}}
-function! everforest#syn_newest(path, last_modified) "{{{
-  " Determine whether the current syntax files are up to date by comparing the last modified time in `colors/everforest.vim` and `after/syntax/text/everforest.vim`.
-  let rootpath = everforest#syn_rootpath(a:path)
-  execute 'source ' . rootpath . '/after/syntax/text/everforest.vim'
-  return a:last_modified ==# g:everforest_last_modified ? 1 : 0
+function! neverforest#syn_newest(path, last_modified) "{{{
+  " Determine whether the current syntax files are up to date by comparing the last modified time in `colors/neverforest.vim` and `after/syntax/text/neverforest.vim`.
+  let rootpath = neverforest#syn_rootpath(a:path)
+  execute 'source ' . rootpath . '/after/syntax/text/neverforest.vim'
+  return a:last_modified ==# g:neverforest_last_modified ? 1 : 0
 endfunction "}}}
-function! everforest#syn_clean(path, msg) "{{{
+function! neverforest#syn_clean(path, msg) "{{{
   " Clean the `after/syntax` directory.
-  let rootpath = everforest#syn_rootpath(a:path)
-  " Remove `after/syntax/**/everforest.vim`.
-  let file_list = split(globpath(rootpath, 'after/syntax/**/everforest.vim'), "\n")
+  let rootpath = neverforest#syn_rootpath(a:path)
+  " Remove `after/syntax/**/neverforest.vim`.
+  let file_list = split(globpath(rootpath, 'after/syntax/**/neverforest.vim'), "\n")
   for file in file_list
     call delete(file)
   endfor
@@ -287,20 +287,20 @@ function! everforest#syn_clean(path, msg) "{{{
   endif
   if a:msg
     let syntax_relative_path = has('win32') ? '\after\syntax' : '/after/syntax'
-    echohl WarningMsg | echom '[everforest] Cleaned ' . rootpath . syntax_relative_path | echohl None
+    echohl WarningMsg | echom '[neverforest] Cleaned ' . rootpath . syntax_relative_path | echohl None
   endif
 endfunction "}}}
-function! everforest#syn_exists(path) "{{{
-  return filereadable(everforest#syn_rootpath(a:path) . '/after/syntax/text/everforest.vim')
+function! neverforest#syn_exists(path) "{{{
+  return filereadable(neverforest#syn_rootpath(a:path) . '/after/syntax/text/neverforest.vim')
 endfunction "}}}
-function! everforest#ftplugin_detect(path) "{{{
+function! neverforest#ftplugin_detect(path) "{{{
   " Check if /after/ftplugin exists.
   " This directory is generated in earlier versions, users may need to manually clean it.
-  let rootpath = everforest#syn_rootpath(a:path)
-  if filereadable(everforest#syn_rootpath(a:path) . '/after/ftplugin/text/everforest.vim')
+  let rootpath = neverforest#syn_rootpath(a:path)
+  if filereadable(neverforest#syn_rootpath(a:path) . '/after/ftplugin/text/neverforest.vim')
     let ftplugin_relative_path = has('win32') ? '\after\ftplugin' : '/after/ftplugin'
-    echohl WarningMsg | echom '[everforest] Detected ' . rootpath . ftplugin_relative_path | echohl None
-    echohl WarningMsg | echom '[everforest] This directory is no longer used, you may need to manually delete it.' | echohl None
+    echohl WarningMsg | echom '[neverforest] Detected ' . rootpath . ftplugin_relative_path | echohl None
+    echohl WarningMsg | echom '[neverforest] This directory is no longer used, you may need to manually delete it.' | echohl None
   endif
 endfunction "}}}
 
