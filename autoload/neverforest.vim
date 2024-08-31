@@ -140,7 +140,7 @@ function! neverforest#get_palette(background, colors_override) "{{{
           \ 'purple':     ['#D182D8',   '175'],
           \ 'white':      ['#ffffff',   '175'],
           \ 'grey0':      ['#7a8478',   '243'],
-          \ 'grey1':      ['#859289',   '245'],
+          \ 'grey1':      ['#859389',   '245'],
           \ 'grey11':     ['#ff0000',   '245'],
           \ 'grey2':      ['#9da9a0',   '247'],
           \ 'mainGrey':   ['#899DA7',   '142'],
