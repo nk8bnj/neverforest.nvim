@@ -147,7 +147,7 @@ if s:configuration.float_style ==# 'dim'
 else
   call neverforest#highlight('NormalFloat', s:palette.red, s:palette.bg0)
   call neverforest#highlight('FloatBorder', s:palette.grey1, s:palette.bg0)
-  call neverforest#highlight('FloatTitle', s:palette.red, s:palette.bg0, 'bold')
+  call neverforest#highlight('FloatTitle', s:palette.lightGrey, s:palette.bg0, 'bold')
 endif
 call neverforest#highlight('Question', s:palette.yellow, s:palette.none)
 if s:configuration.spell_foreground ==# 'none'
