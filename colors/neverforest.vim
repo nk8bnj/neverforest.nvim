@@ -48,9 +48,9 @@ if s:configuration.transparent_background >= 1
 else
   call neverforest#highlight('Normal', s:palette.grey1, s:palette.bg0)
   if s:configuration.dim_inactive_windows
-    call neverforest#highlight('NormalNC', s:palette.fg, s:palette.bg_dim)
+    call neverforest#highlight('NormalNC', s:palette.red, s:palette.bg_dim)
   else
-    call neverforest#highlight('NormalNC', s:palette.fg, s:palette.bg0)
+    call neverforest#highlight('NormalNC', s:palette.red, s:palette.bg0)
   endif
   call neverforest#highlight('Terminal', s:palette.fg, s:palette.bg0)
   if s:configuration.show_eob
