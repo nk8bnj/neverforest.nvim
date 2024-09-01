@@ -46,7 +46,7 @@ if s:configuration.transparent_background >= 1
   call neverforest#highlight('SignColumn', s:palette.fg, s:palette.none)
   call neverforest#highlight('ToolbarLine', s:palette.fg, s:palette.none)
 else
-  call neverforest#highlight('Normal', s:palette.red, s:palette.bg0)
+  call neverforest#highlight('Normal', s:palette.grey1, s:palette.bg0)
   if s:configuration.dim_inactive_windows
     call neverforest#highlight('NormalNC', s:palette.fg, s:palette.bg_dim)
   else
