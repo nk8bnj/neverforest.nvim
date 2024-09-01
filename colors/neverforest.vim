@@ -29,9 +29,9 @@ endif
 " Common Highlight Groups: {{{
 " UI: {{{
 if s:configuration.transparent_background >= 1
-  call neverforest#highlight('Normal', s:palette.red, s:palette.none)
-  call neverforest#highlight('NormalNC', s:palette.red, s:palette.none)
-  call neverforest#highlight('Terminal', s:palette.red, s:palette.none)
+  call neverforest#highlight('Normal', s:palette.fg, s:palette.none)
+  call neverforest#highlight('NormalNC', s:palette.fg, s:palette.none)
+  call neverforest#highlight('Terminal', s:palette.fg, s:palette.none)
   if s:configuration.show_eob
     call neverforest#highlight('EndOfBuffer', s:palette.bg4, s:palette.none)
   else
@@ -43,14 +43,14 @@ if s:configuration.transparent_background >= 1
     call neverforest#highlight('FoldColumn', s:palette.grey0, s:palette.none)
   endif
   call neverforest#highlight('Folded', s:palette.grey1, s:palette.none)
-  call neverforest#highlight('SignColumn', s:palette.fg, s:palette.none)
-  call neverforest#highlight('ToolbarLine', s:palette.fg, s:palette.none)
+  call neverforest#highlight('SignColumn', s:palette.red, s:palette.none)
+  call neverforest#highlight('ToolbarLine', s:palette.red, s:palette.none)
 else
-  call neverforest#highlight('Normal', s:palette.fg, s:palette.bg0)
+  call neverforest#highlight('Normal', s:palette.red, s:palette.bg0)
   if s:configuration.dim_inactive_windows
-    call neverforest#highlight('NormalNC', s:palette.fg, s:palette.bg_dim)
+    call neverforest#highlight('NormalNC', s:palette.red, s:palette.bg_dim)
   else
-    call neverforest#highlight('NormalNC', s:palette.fg, s:palette.bg0)
+    call neverforest#highlight('NormalNC', s:palette.red, s:palette.bg0)
   endif
   call neverforest#highlight('Terminal', s:palette.fg, s:palette.bg0)
   if s:configuration.show_eob
