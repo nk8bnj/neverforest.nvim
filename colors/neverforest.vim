@@ -145,7 +145,7 @@ if s:configuration.float_style ==# 'dim'
   call neverforest#highlight('FloatBorder', s:palette.grey1, s:palette.bg_dim)
   call neverforest#highlight('FloatTitle', s:palette.red, s:palette.bg_dim, 'bold')
 else
-  call neverforest#highlight('NormalFloat', s:palette.red, s:palette.bg0)
+  call neverforest#highlight('NormalFloat', s:palette.lightGrey, s:palette.bg0)
   call neverforest#highlight('FloatBorder', s:palette.grey1, s:palette.bg0)
   call neverforest#highlight('FloatTitle', s:palette.green, s:palette.bg0, 'bold')
 endif
