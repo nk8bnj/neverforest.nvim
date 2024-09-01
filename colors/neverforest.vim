@@ -2890,7 +2890,7 @@ highlight! link ps1BuiltIn Yellow
 call neverforest#highlight('vimCommentTitle', s:palette.grey1, s:palette.none, 'bold')
 highlight! link vimLet Orange
 highlight! link vimFunction Green
-highlight! link vimIsCommand Fg
+highlight! link vimIsCommand Red
 highlight! link vimUserFunc Green
 highlight! link vimFuncName Green
 highlight! link vimMap PurpleItalic

@@ -161,9 +161,9 @@ let g:airline#themes#neverforest#palette.visual_modified = deepcopy(g:airline#th
 let g:airline#themes#neverforest#palette.visual_modified.airline_c = [ s:visual_mod_fg[0] , s:visual_mod_bg[0] , s:visual_mod_fg[1] , s:visual_mod_bg[1] ]
 
 " Command Line mode
-let s:R1 = [ s:commandline_side_red[0] , s:commandline_side_bg[0] , s:commandline_side_fg[1] , s:commandline_side_bg[1] ]
-let s:R2 = [ s:commandline_sub_red[0] , s:commandline_sub_bg[0] , s:commandline_sub_fg[1] , s:commandline_sub_bg[1] ]
-let s:R3 = [ s:commandline_mid_red[0] , s:commandline_mid_bg[0] , s:commandline_mid_fg[1] , s:commandline_mid_bg[1] ]
+let s:R1 = [ s:commandline_side_fg[0] , s:commandline_side_bg[0] , s:commandline_side_fg[1] , s:commandline_side_bg[1] ]
+let s:R2 = [ s:commandline_sub_fg[0] , s:commandline_sub_bg[0] , s:commandline_sub_fg[1] , s:commandline_sub_bg[1] ]
+let s:R3 = [ s:commandline_mid_fg[0] , s:commandline_mid_bg[0] , s:commandline_mid_fg[1] , s:commandline_mid_bg[1] ]
 
 let g:airline#themes#neverforest#palette.commandline = airline#themes#generate_color_map(s:R1, s:R2, s:R3)
 let g:airline#themes#neverforest#palette.commandline.airline_error = [ s:error_fg[0] , s:error_bg[0] , s:error_fg[1] , s:error_bg[1] ]
