@@ -141,9 +141,9 @@ call neverforest#highlight('PmenuExtra', s:palette.grey2, s:palette.bg2)
 highlight! link WildMenu PmenuSel
 call neverforest#highlight('PmenuThumb', s:palette.none, s:palette.grey0)
 if s:configuration.float_style ==# 'dim'
-  call neverforest#highlight('NormalFloat', s:palette.red, s:palette.bg_dim)
+  call neverforest#highlight('NormalFloat', s:palette.fg, s:palette.bg_dim)
   call neverforest#highlight('FloatBorder', s:palette.grey1, s:palette.bg_dim)
-  call neverforest#highlight('FloatTitle', s:palette.red, s:palette.bg_dim, 'bold')
+  call neverforest#highlight('FloatTitle', s:palette.fg, s:palette.bg_dim, 'bold')
 else
   call neverforest#highlight('NormalFloat', s:palette.lightGrey, s:palette.bg0)
   call neverforest#highlight('FloatBorder', s:palette.grey1, s:palette.bg0)
