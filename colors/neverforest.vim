@@ -29,9 +29,9 @@ endif
 " Common Highlight Groups: {{{
 " UI: {{{
 if s:configuration.transparent_background >= 1
-  call neverforest#highlight('Normal', s:palette.fg, s:palette.none)
-  call neverforest#highlight('NormalNC', s:palette.fg, s:palette.none)
-  call neverforest#highlight('Terminal', s:palette.fg, s:palette.none)
+  call neverforest#highlight('Normal', s:palette.red, s:palette.none)
+  call neverforest#highlight('NormalNC', s:palette.red, s:palette.none)
+  call neverforest#highlight('Terminal', s:palette.red, s:palette.none)
   if s:configuration.show_eob
     call neverforest#highlight('EndOfBuffer', s:palette.bg4, s:palette.none)
   else
@@ -2890,7 +2890,7 @@ highlight! link ps1BuiltIn Yellow
 call neverforest#highlight('vimCommentTitle', s:palette.grey1, s:palette.none, 'bold')
 highlight! link vimLet Orange
 highlight! link vimFunction Green
-highlight! link vimIsCommand Red
+highlight! link vimIsCommand Fg
 highlight! link vimUserFunc Green
 highlight! link vimFuncName Green
 highlight! link vimMap PurpleItalic
